@@ -176,9 +176,6 @@ class ApplicationGUI:
 
         # Highlight filtered rows 
         self.tree.tag_configure('filtered', background='lightyellow')
-
-        # Display option
-        # table_window.attributes('-toolwindow', True)
         
         # Closing all windows
         table_window.protocol("WM_DELETE_WINDOW", self.on_results_window_close) 
